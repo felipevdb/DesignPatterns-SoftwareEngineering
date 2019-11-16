@@ -15,5 +15,10 @@ public class DBConfigModel{
 		this.password = password;
 		this.name = name;
 	}
+	
+	
+	public void showConfig() {
+		System.out.println(host+";"+port+";"+user+";"+password+";"+name);
+	}
 
 }

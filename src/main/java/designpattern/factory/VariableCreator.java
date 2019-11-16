@@ -4,7 +4,7 @@ import config.DBConfigModel;
 
 public class VariableCreator implements Creator {
 	
-	VariableCreator(){
+	public VariableCreator(){
 		System.setProperty("host", "796.654.35.8");
 		System.setProperty("port", "1521"); 
 		System.setProperty("user", "admin"); 
